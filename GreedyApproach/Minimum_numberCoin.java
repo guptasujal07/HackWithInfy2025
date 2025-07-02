@@ -7,7 +7,7 @@ public class Minimum_numberCoin {
 
         System.out.print("Enter the amount: ");
         int amount = sc.nextInt();
-        sc.nextLine(); 
+        sc.nextLine(); // consume newline
 
         System.out.print("Enter the coin: ");
         String[] tokens = sc.nextLine().split(" ");
