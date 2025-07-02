@@ -5,6 +5,18 @@ This repository contains solutions to greedy problems commonly asked in coding i
 
 ---
 
+## 📘 What is Greedy Approach?
+
+**Greedy Algorithm** is an algorithmic paradigm that builds up a solution piece by piece, always choosing the option that offers the most immediate benefit (locally optimal choice) at each step with the hope that this leads to a globally optimal solution.
+
+### 🧠 Key Characteristics:
+- Makes a **greedy choice** at each step.
+- Does **not revisit or revise** past decisions.
+- Efficient and fast but doesn't always guarantee the best solution.
+- Works best when the problem exhibits the **greedy-choice property** and **optimal substructure**.
+
+---
+
 ## ✅ Problem 1: **Coin Change (Minimum Coins)**
 
 **Description:**  
@@ -76,7 +88,7 @@ d 1 30
 - Schedule each job in the **latest available slot** before its deadline  
 - Greedy ensures max profit with available time
 
-**Code File:** `Job_sequencing.java `  
+**Code File:** `Job_sequencing.java`  
 **Status:** ✅ Solved & Understood
 
 ---
@@ -127,8 +139,6 @@ start2 end2
 - Sorting is often the key first step in greedy problems
 - Not all problems can be solved greedily — always validate
 
-
-
-
+---
 
 Made with 💻 by Sujal Gupta
