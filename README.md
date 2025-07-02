@@ -133,18 +133,6 @@ start2 end2
 
 ---
 
-## 📌 Summary of Learnings
-
-- Greedy algorithms work well when **local optimum leads to global optimum**
-- Sorting is often the key first step in greedy problems
-- Not all problems can be solved greedily — always validate
-
----
-
-Made with 💻 by Sujal Gupta
-
----
-
 ## ✅ Problem 4: **Fractional Knapsack Problem**
 
 **Description:**  
@@ -180,3 +168,14 @@ value2 weight2
 
 **Code File:** `FractionalKnapsack.java`  
 **Status:** ✅ Solved & Understood
+
+
+## 📌 Summary of Learnings
+
+- Greedy algorithms work well when **local optimum leads to global optimum**
+- Sorting is often the key first step in greedy problems
+- Not all problems can be solved greedily — always validate
+
+---
+
+Made with 💻 by Sujal Gupta
