@@ -142,3 +142,41 @@ start2 end2
 ---
 
 Made with 💻 by Sujal Gupta
+
+---
+
+## ✅ Problem 4: **Fractional Knapsack Problem**
+
+**Description:**  
+Given `n` items with values and weights, and a knapsack capacity `W`, find the maximum total value in the knapsack. You **can take fractions** of items.
+
+**Input Format:**
+```
+n W
+value1 weight1
+value2 weight2
+...
+```
+
+**Sample Input:**
+```
+3 50
+60 10
+100 20
+120 30
+```
+
+**Sample Output:**
+```
+240.0
+```
+
+**Approach Summary:**  
+- Calculate value/weight ratio for each item  
+- Sort items by this ratio in **descending order**  
+- Pick items greedily:
+  - If whole item fits, take it
+  - If not, take the fractional part that fits
+
+**Code File:** `FractionalKnapsack.java`  
+**Status:** ✅ Solved & Understood
